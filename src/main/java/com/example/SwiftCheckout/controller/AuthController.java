@@ -21,7 +21,7 @@ import com.example.SwiftCheckout.service.CustomerService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://harilogesh44.github.io")
 public class AuthController {
 
     @Autowired
