@@ -18,7 +18,7 @@ import com.example.SwiftCheckout.service.OrderService;
 
 @RestController
 @RequestMapping("/orders")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://harilogesh44.github.io")
 public class OrderController {
 
     @Autowired
